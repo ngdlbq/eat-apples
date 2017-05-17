@@ -1,0 +1,35 @@
+{
+  "name": "react-node-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline --hot --port 3000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-redux": "^4.2.1",
+    "redux": "^3.2.1",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "concat-with-sourcemaps": "^1.0.4",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-sequence": "^0.4.6",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.15.0"
+  }
+}
